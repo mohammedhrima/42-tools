@@ -1,36 +1,24 @@
+# push_swap tester
 
-## how to use
+Tests a push_swap project: it generates random integers, runs your `push_swap` with them, replays the
+operations it prints, and checks the stack ends up sorted (and counts the moves). It expects your
+`push_swap` binary one directory up (`../push_swap`).
 
-- Clone the repo
+## Use
+
 ```bash
-  git clone https://github.com/mohammedhrima/Push_swap_Tester
+make tests     # fast run
+make debug     # slower, animated stack view
 ```
 
-- Test your push_swap by running 
-```bash
-  make tests -C ./Push_swap_Tester
+You'll be prompted for the number of tests, how many numbers to generate per test, and whether to
+include negatives:
+
 ```
-
-- Debug your push_swap by running 
-```bash
-  make debug -C ./Push_swap_Tester
+how many tests you want:
+how many generated numbers you need: 100
+with negative numbers ? [y/n]:
+Press Enter to start the test...
 ```
-
-
-- when running the program, you will get the following outputs:
-```bash
-    how many tests you want:                        // number of tests 
-    how many generated numbers you need: 100        // 100 generate number
-    with negative numbers ? [y/n]:                  // yes or no
-    Press Enter to start the test...
-```
-
-
-
-
 
 https://user-images.githubusercontent.com/71414472/220415001-1220c158-240b-4e61-84ad-b28af49ef487.mov
-
-
-
-

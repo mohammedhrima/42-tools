@@ -1,4 +1,4 @@
-# So_long map genearator:
+# So_long map generator
 
 + to generate a map run the following command:
 ```bash
